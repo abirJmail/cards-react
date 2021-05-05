@@ -1,0 +1,54 @@
+.grid {
+    display: flex;
+    background-color: rgb(240, 241, 242);
+    background-image: url(https://gomycodewebsite.blob.core.windows.net/website/img/black_Logo_342868e838_129748d4cd.svg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px;
+    background-position: 10% 3%;
+    border-end-end-radius: 30%  ;
+    
+}
+.box {
+background-color:#0f0f0f;
+color: rgb(240, 241, 242);
+
+}
+.form { 
+    border-start-start-radius: 30%;
+    margin-top: 100px;
+    justify-content: space-around;
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-color: #e50914;
+    background-size: 600px;
+    background-position: 125% 30%;
+    background-image: url(https://gomycodewebsite.blob.core.windows.net/website/img/communaute_picto_bdf74eeb40.svg);
+}
+#formGridEmail{
+    margin: 0 100px 0 0;
+}
+#formGridPassword{
+    margin: 0 0 0 100px ;
+}
+#formGridZip{
+    margin: 0 0 0 100px
+}
+#formGridState{
+    margin: 0 50px 0 50px
+}
+#formGridAddress1{
+    width: 70%;
+}
+#formGridAddress2{
+    width: 70%;
+}
+Button{
+    width: 30%;
+    background-color: black !important;
+    border: black!important;
+    
+}
